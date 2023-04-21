@@ -1,44 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Lab 4 HTTP Seacurity Headers</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+         * {
+
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 15px;
+            box-sizing: border-box;
+            margin: 0;
+            background-color: beige;
+
+          }
+          .navbar{
+            width: 1024px;
+            height: 15vh;
+            margin: 0px;
+            padding: 0px; 
+          }
+          nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px;
+          }
+          nav ul li{
+            list-style-type: none;
+            display: inline-block;
+    
+          }
+          nav ul li a{
+            color:cornflowerblue ;
+            text-decoration: none;
+            font-weight: bolder;
+          }
+    </style>
+    <title>My Blog</title>
 </head>
-<body>
-	<header>
-		<h1>Welcome to My Website</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul>
-		</nav>
-	</header>
+<body> 
+      <div class="navbar">
+         <nav>
+           <h3 class="logo"><a href="#">Aadrit</a> </h3>
+             <ul class="navLinks">
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Information</a></li>
+                <li><a href="#">XXX</a></li>
+             </ul>
+             <button type="button">Subscribe</button>
+         </nav>
+       </div>
+    <header>
+        <h1>My First Blog</h1>
+    
+    </header>
 
-	<main>
-		<section>
-			<h2>About Us</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod porta neque, vel euismod velit fermentum ut. Nullam at odio ac massa vestibulum pretium. Etiam euismod mauris vel enim rhoncus hendrerit. Nulla dictum augue at nibh pulvinar, id consequat sapien sollicitudin. </p>
-		</section>
+         
+    <main>
+        <div class="flex">
+            <div class="columnL">
+                <article>
+                    <h2>My introduction</h2>
+                    <p>Born and brought up in the city of Lucknow, I completed my secondary education in 2015 from Sherwood Academy (ICSE board), and higher secondary education in 2017 from City Montessori School(ISC) scoring 75% with Computer Science as one of my major subjects. By the time I had completed higher secondary education, I had already gained beginner level coding skills and became fluent in basic coding languages like C++ and JAVA, during higher secondary education.
 
-		<section>
-			<h2>Services</h2>
-			<ul>
-				<li>Web Design</li>
-				<li>Graphic Design</li>
-				<li>Search Engine Optimization</li>
-				<li>Social Media Marketing</li>
-			</ul>
-		</section>
+                     Following my dedication and achieving decent grades in Computer Science being a motivator, I went on to pursue Bachelors in Computer Applications from Galgotias University, and it was during my bachelors that I was able to figure out my passion for web development among other branches or domains in Computer Science. As part of my Bachelors curriculum, I was introduced to basic web development which really increased my inclination towards it.</p>
+                </article>
+                
+            </div>
+   
+             
+        </div>
 
-		
-	</main>
+    </main>
 
-	<footer>
-		<p>&copy; 2023 Harshadkumar Patel. All Rights Reserved.</p>
-	</footer>
+    <footer class="line">
+    
+        <form>
+        Leave Your feedback
+        <input type="email" placeholder="Email:">
+        <input type="text" placeholder="Name:">
+        <textarea name="Feedback"  cols="30" rows="10" placeholder="Type your feedback here:"></textarea>
+        <button type="button">Submit</button>
+        </form>
+        <div >
+        <a href="#">All Rights Reserved</a> Copyright 2022 &copy; 
+        </div>
+    
+   </footer>
+
+
+    
 </body>
 </html>
